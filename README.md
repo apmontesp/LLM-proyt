@@ -37,24 +37,17 @@ pip install -r requirements.txt
 streamlit run app/app.py
 ```
 
-## Despliegue en Streamlit Cloud
-
-1. Subir el repositorio a GitHub
-2. Ir a [share.streamlit.io](https://share.streamlit.io)
-3. Conectar con tu cuenta de GitHub
-4. Seleccionar repositorio → rama `main` → archivo `app/app.py`
-5. Click en **Deploy**
 
 ## Funcionalidades del Dashboard
 
 | Módulo | Descripción |
 |---|---|
-| 🏥 Regresión | Predicción de costo médico (Medical Cost Dataset) |
-| 📱 Clasificación | Predicción de churn (Telco Customer Churn) |
-| 📊 Métricas | Comparación de 3 modelos con CV + Test Set |
-| 📈 Feature Importance | Gráfica de importancia de variables (Random Forest) |
-| 🔍 Predicción Individual | Formulario interactivo con análisis de riesgo |
-| 📂 Predicción por Lote | Carga de CSV + descarga de resultados |
+|  Regresión | Predicción de costo médico (Medical Cost Dataset) |
+| Clasificación | Predicción de churn (Telco Customer Churn) |
+| Métricas | Comparación de 3 modelos con CV + Test Set |
+| Feature Importance | Gráfica de importancia de variables (Random Forest) |
+| Predicción Individual | Formulario interactivo con análisis de riesgo |
+| Predicción por Lote | Carga de CSV + descarga de resultados |
 
 ## Modelos implementados
 
